@@ -1,13 +1,10 @@
-Number = []
+letters = 'КОР'
+n = 0
 
-while True:
-    request = int(input('Выберите операцию'))
-    if request == 1:
-        answer = int(input('Введите новое число в список'))
-        Number.append(answer)
-    elif request == 2:
-        Number.sort()
-    elif request == 3:
-        print(Number)
-    else:
-        print('Вы ввели неправильный номер операции, напишите заново')
+for x in letters:
+    for y in letters:
+        for z in letters:
+            for w in letters:
+                for l in letters:
+                    n += 1
+                    print(n, x, y, z, w, l)
