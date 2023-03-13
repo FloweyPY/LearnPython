@@ -7,3 +7,4 @@ while n != 0:
     n = n // 7
 counter = Counter(ans)
 print(counter)
+print('dasdsad')
